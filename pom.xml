@@ -78,11 +78,20 @@
 		</dependency>
 
 
+		<!-- https://mvnrepository.com/artifact/biz.paluch.redis/lettuce -->
 		<dependency>
 			<groupId>biz.paluch.redis</groupId>
 			<artifactId>lettuce</artifactId>
-			<version>4.3.1.Final</version>
+			<version>4.5.0.Final</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.springframework.session/spring-session -->
+		<dependency>
+			<groupId>org.springframework.session</groupId>
+			<artifactId>spring-session</artifactId>
+			<version>1.3.5.RELEASE</version>
+		</dependency>
+
 
 		<dependency>
 			<groupId>javax.mail</groupId>
